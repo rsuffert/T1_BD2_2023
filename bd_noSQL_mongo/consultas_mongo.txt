@@ -1,0 +1,78 @@
+// 1. RECUPERANDO OS TITULOS DOS "LIVROS" EMPRESTADOS COM MAIS DE 100 PÁGINAS:
+biblioteca_escolas.emprestimos.aggregate([
+	{
+		$unwind: {path: "$obras"}
+	},
+	{
+		$match: {"obras.nro_de_paginas": {$gt:100}, "obras.tipo.descricao": 'Livro'}
+	},
+	{
+		$group: {
+			_id: "$obras.titulo",
+  			unique: {
+    				$addToSet: {
+      				titulo: "$obras.titulo",
+      				nro_de_paginas: "$obras.nro_de_paginas",
+      				descricao: "$obras.tipo.descricao"
+    				}
+  			}
+		}
+	},
+	{
+		$sort: {_id:1}
+	}
+])
+
+// 2. RECUPERANDO O TEMPO MÉDIO DE EMPRÉSTIMO DAS OBRAS DO TIPO "REVISTA"
+biblioteca_escolas.emprestimos.aggregate([
+	{
+		$match: {"obras.tipo.descricao": 'Revista'}
+	},
+	{	$group: {
+  			_id: null,
+    				media: {
+      				$avg : {
+        					$dateDiff : {
+          						startDate: {
+            						$dateFromString: {
+              							dateString: "$data_emprestimo",
+              							format: "%Y-%m-%dT%H:%M:%S"
+            						}
+          						},
+          						endDate: {
+            						$dateFromString: {
+              							dateString: "$data_devolucao",
+              							format: "%Y-%m-%dT%H:%M:%S"
+           		 					}
+          						},
+							unit: "day"
+        					}
+      				}
+    				}
+		}
+  	}
+])
+
+// 3. RECUPERANDO O TÍTULO DAS OBRAS ESCRITAS POR AGATHA CHRISTIE
+biblioteca_escola.emprestimos.aggregate([
+	{
+		$unwind: {path: "$obras"}
+	},
+	{
+		$match: {"obras.autores.nome" : 'Agatha Christie'}
+	},
+	{
+		$group: {
+			_id: "$obras.titulo",
+			unique: {
+				$addToSet: {
+					titulo: "$obras.titulo",
+					autor: "$obras.autores.nome"
+				}
+			}
+		}
+	},
+	{
+		$sort: {_id:1}
+	}
+])

@@ -1,0 +1,346 @@
+[
+	{
+		"data_emprestimo" : "2022-04-22T00:00:00",
+		"data_devolucao" : "2022-04-29T00:00:00",
+		"cliente" : {
+			"cpf" : "00000000010",
+			"nome" : "Ricardo Süffert",
+			"email" : "ricardo.suffert@edu.pucrs.br",
+			"telefone" : "51999999333",
+			"data_nascimento" : "2003-04-09T00:00:00",
+			"dados_aluno" :{
+				"matricula" : "22103137",
+				"creditos_concluidos" : 30	
+			}
+		},
+		"obras" : [
+			{
+				"codigo" : 3,
+				"titulo" : "O Assassinato no Expresso do Oriente",
+				"nro_de_paginas" : 240,
+				"tipo" : {
+					"codigo" : 1,
+					"descricao" : "Livro"
+				},
+				"autores" : [
+					{
+						"codigo" : 3,
+						"nome": "Agatha Christie"
+					}
+				]
+			}
+		]
+	},
+	
+	{
+		"data_emprestimo" : "2022-04-23T00:00:00",
+		"data_devolucao" : "2022-04-30T00:00:00",
+		"cliente" : {
+			"cpf" : "00000000010",
+			"nome" : "Ricardo Süffert",
+			"email" : "ricardo.suffert@edu.pucrs.br",
+			"telefone" : "51999999333",
+			"data_nascimento" : "2003-04-09T00:00:00",
+			"dados_aluno" :{
+				"matricula" : "22103137",
+				"creditos_concluidos" : 30
+			}
+		},
+		"obras" : [
+			{
+				"codigo" : 4,
+				"titulo" : "Morte no Nilo",
+				"nro_de_paginas" : 237,
+				"tipo" : {
+					"codigo" : 1,
+					"descricao" : "Livro"
+				},
+				"autores" : [
+					{
+						"codigo" : 3,
+						"nome": "Agatha Christie"
+					}
+				]
+			}
+		]
+	},
+	
+	{
+		"data_emprestimo" : "2022-04-20T00:00:00",
+		"data_devolucao" : "2022-05-04T00:00:00",
+		"cliente" : {
+			"cpf" : "00000000011",
+			"nome" : "Daniel Callegari",
+			"email" : "daniel.callegari@pucrs.br",
+			"telefone" : "51999999999",
+			"data_nascimento" : "1985-11-04T00:00:00",
+			"dados_professor" :{
+				"data_de_contratacao" : "2010-04-22T00:00:00"	
+			}
+		},
+		"obras" : [
+			{
+				"codigo" : 2,
+				"titulo" : "Belas Adormecidas",
+				"nro_de_paginas" : 728,
+				"tipo" : {
+					"codigo" : 1,
+					"descricao" : "Livro"
+				},
+				"autores" : [
+					{
+						"codigo" : 2,
+						"nome": "Owen King"
+					},
+					{
+						"codigo" : 4,
+						"nome" : "Stephen King"
+					}
+				]
+			}
+		]
+	},
+	
+	{
+		"data_emprestimo" : "2022-04-20T00:00:00",
+		"data_devolucao" : "2022-04-27T00:00:00",
+		"cliente" : {
+			"cpf" : "00000000012",
+			"nome" : "João da Silva",
+			"email" : "joao.silva@edu.pucrs.br",
+			"telefone" : "51999999334",
+			"data_nascimento" : "2001-07-24T00:00:00",
+			"dados_aluno" :{
+				"matricula" : "22103148",
+				"creditos_concluidos" : 22	
+			}
+		},
+		"obras" : [
+			{
+				"codigo" : 2,
+				"titulo" : "Belas Adormecidas",
+				"nro_de_paginas" : 728,
+				"tipo" : {
+					"codigo" : 1,
+					"descricao" : "Livro"
+				},
+				"autores" : [
+					{
+						"codigo" : 2,
+						"nome": "Owen King"
+					},
+					{
+						"codigo" : 4,
+						"nome" : "Stephen King"
+					}
+				]
+			},
+			{
+				"codigo" : 1,
+				"titulo" : "Memórias Póstumas de Brás Cubas",
+				"nro_de_paginas" : 368,
+				"tipo" : {
+					"codigo" : 1,
+					"descricao" : "Livro"
+				},
+				"autores" : [
+					{
+						"codigo" : 1,
+						"nome": "Machado de Assis"
+					}
+				]
+			},
+			{
+				"codigo" : 4,
+				"titulo" : "Morte no Nilo",
+				"nro_de_paginas" : 237	,
+				"tipo" : {
+					"codigo" : 1,
+					"descricao" : "Livro"
+				},
+				"autores" : [
+					{
+						"codigo" : 3,
+						"nome": "Agatha Christie"
+					}
+				]
+			}
+		]
+	},
+	
+	{
+		"data_emprestimo" : "2022-04-25T00:00:00",
+		"data_devolucao" : "2022-05-02T00:00:00",
+		"cliente" : {
+			"cpf" : "00000000013",
+			"nome" : "Pedro Batista",
+			"email" : "pedro.batista@edu.pucrs.br",
+			"telefone" : "51999999335",
+			"data_nascimento" : "1999-01-30T00:00:00",
+			"dados_aluno" :{
+				"matricula" : "22103159",
+				"creditos_concluidos" : 38	
+			}
+		},
+		"obras" : [
+			{
+				"codigo" : 4,
+				"titulo" : "Morte no Nilo",
+				"nro_de_paginas" : 237,
+				"tipo" : {
+					"codigo" : 1,
+					"descricao" : "Livro"
+				},
+				"autores" : [
+					{
+						"codigo" : 3,
+						"nome": "Agatha Christie"
+					}
+				]
+			},
+			{
+				"codigo" : 3,
+				"titulo" : "O Assassinato no Expresso do Oriente",
+				"nro_de_paginas" : 240,
+				"tipo" : {
+					"codigo" : 1,
+					"descricao" : "Livro"
+				},
+				"autores" : [
+					{
+						"codigo" : 3,
+						"nome": "Agatha Christie"
+					}
+				]
+			}
+		]
+	},
+	
+	{
+		"data_emprestimo" : "2022-05-01T00:00:00",
+		"data_devolucao" : "2022-05-15T00:00:00",
+		"cliente" : {
+			"cpf" : "00000000011",
+			"nome" : "Daniel Callegari",
+			"email" : "daniel.callegari@pucrs.br",
+			"telefone" : "51999999999",
+			"data_nascimento" : "1985-11-04T00:00:00",
+			"dados_professor" :{
+				"data_de_contratacao" : "2010-04-22T00:00:00"
+			}
+		},
+		"obras" : [
+			{
+				"codigo" : 4,
+				"titulo" : "Morte no Nilo",
+				"nro_de_paginas" : 237,
+				"tipo" : {
+					"codigo" : 1,
+					"descricao" : "Livro"
+				},
+				"autores" : [
+					{
+						"codigo" : 3,
+						"nome": "Agatha Christie"
+					}
+				]
+			}	
+		]
+	},
+	
+	{
+		"data_emprestimo" : "2022-04-21T00:00:00",
+		"data_devolucao" : "2022-04-28T00:00:00",
+		"cliente" : {
+			"cpf" : "00000000014",
+			"nome" : "Fernando Oliveira",
+			"email" : "fernando.oliveira@edu.pucrs.br",
+			"telefone" : "51999999344",
+			"data_nascimento" : "2004-08-08T00:00:00",
+			"dados_aluno" :{
+				"matricula" : "22103161",
+				"creditos_concluidos" : 47	
+			}
+		},
+		"obras" : [
+			{
+				"codigo" : 1,
+				"titulo" : "Memórias Póstumas de Brás Cubas",
+				"nro_de_paginas" : 368,
+				"tipo" : {
+					"codigo" : 1,
+					"descricao" : "Livro"
+				},
+				"autores" : [
+					{
+						"codigo" : 1,
+						"nome": "Machado de Assis"
+					}
+				]
+			}
+		]
+	},
+	{
+		"data_emprestimo" : "2022-04-26T00:00:00",
+		"data_devolucao" : "2022-05-03T00:00:00",
+		"cliente" : {
+			"cpf" : "00000000014",
+			"nome" : "Fernando Oliveira",
+			"email" : "fernando.oliveira@edu.pucrs.br",
+			"telefone" : "51999999344",
+			"data_nascimento" : "2004-08-08T00:00:00",
+			"dados_aluno" :{
+				"matricula" : "22103161",
+				"creditos_concluidos" : 47	
+			}
+		},
+		"obras" : [
+			{
+				"codigo" : 5,
+				"titulo" : "Época Negócios - Maio/2023",
+				"nro_de_paginas" : 43,
+				"tipo" : {
+					"codigo" : 2,
+					"descricao" : "Revista"
+				},
+				"autores" : [
+					{
+						"codigo" :5,
+						"nome": "Editora Globo"
+					}
+				]
+			}
+		]
+	},
+	{
+		"data_emprestimo" : "2022-04-29T00:00:00",
+		"data_devolucao" : "2022-05-13T00:00:00",
+		"cliente" : {
+			"cpf" : "00000000011",
+			"nome" : "Daniel Callegari",
+			"email" : "daniel.callegari@pucrs.br",
+			"telefone" : "51999999999",
+			"data_nascimento" : "1985-11-04T00:00:00",
+			"dados_professor" :{
+				"data_de_contratacao" : "2010-04-22T00:00:00"
+			}
+		},
+		"obras" : [
+			{
+				"codigo" : 6,
+				"titulo" : "Super Interessante - Maio/2023",
+				"nro_de_paginas" : 71,
+				"tipo" : {
+					"codigo" : 2,
+					"descricao" : "Revista"
+				},
+				"autores" : [
+					{
+						"codigo" :6,
+						"nome": "Editora Abril"
+					}
+				]
+			}
+		]
+	}
+]
